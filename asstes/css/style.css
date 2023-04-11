@@ -2042,6 +2042,9 @@
   font-size: 17px;
   margin: 0;
 }
+.Order-Details-traking-section .order-details-traking-section {
+  padding-top: 80px;
+}
 .Order-Details-traking-section .order-details-traking-contain {
   background-color: var(--light);
   border-radius: 20px;
