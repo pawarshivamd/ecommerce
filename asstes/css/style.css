@@ -1872,10 +1872,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
+  padding: 0px;
   background-color: var(--white);
-  height: 108px;
-  width: 108px;
+  height: 100px;
+  width: 100px;
   border-radius: 5px;
 }
 .User-rating-review-section .user-rating-review-contain .user-rating-review-img-box img {
