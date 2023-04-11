@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-order-page</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font-awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+    <!-- ============== Link Swiper's CSS ============ -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font dowlond  link -->
+    <link rel="stylesheet" href="asstes/fonts/transfonter.org-20230210-103519/stylesheet.css">
+
+
+    <link rel="stylesheet" href="asstes/css/style.css">
+    <link rel="stylesheet" href="asstes/css/responsive.css">
+</head>
+
+<body style="background: #FEF9F1;">
+
+    <!-- ================ header section strat ===================== -->
+ 
+                <div class="header">
+                    <nav class="navbar navbar-expand-lg nav-section">
+                        <div class="container">
+                            <a class="navbar-brand img-nav" href="index.html"><img
+                                    src="asstes/img/logo/vector black.png" alt="" class="pe-3">GymCart
+                            </a>
+                            <button class="navbar-toggler btn-nav" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbar_1" aria-controls="navbar_1" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="navbar_1" tabindex="-1">
+                                <ul class="navbar-nav ms-auto  nav-ul">
+                                    <!-- Navbar dropdown -->
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link dropdown-toggle" href="#" id="" role="button"
+                                            data-mdb-toggle="dropdown" aria-expanded="false">
+                                            Category
+                                        </a>
+                                        <!-- Dropdown menu -->
+                                        <div class="dropdown-menu  mt-0  mydropudowan" aria-labelledby="navbarDropdown">
+                                            <div class="container">
+                                                <div class="row my-4">
+                                                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                                                        <div class="list-group ">
+                                                            <h4 class="mb-0 list-group-item ">
+                                                                Lorem ipsum
+                                                            </h4>
+                                                            <a href="productsviewdetailes.html"
+                                                                class="list-group-item">Products details</a>
+                                                            <a href="product grid page.html"
+                                                                class="list-group-item ">Product list </a>
+                                                            <a href="Rating-&-reveiws.html"
+                                                                class="list-group-item ">Rating & Reveiws</a>
+                                                            <a href="Delivery-address-page.html"
+                                                                class="list-group-item ">Delivery address</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                                                        <div class="list-group ">
+                                                            <h4 class="mb-0 list-group-item ">
+                                                                Explicabo voluptas
+                                                            </h4>
+                                                            <a href="wishlist page.html"
+                                                                class="list-group-item ">Wishlist </a>
+                                                            <a href="Checkout-page.html"
+                                                                class="list-group-item ">Checkout </a>
+                                                            <a href="Profile-page.html"
+                                                                class="list-group-item ">Profile</a>
+                                                            <a href="About-us-page.html" class="list-group-item ">About
+                                                                us</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
+                                                        <div class="list-group">
+                                                            <h4 class="mb-0 list-group-item">
+                                                                Iste quaerato
+                                                            </h4>
+                                                            <a href="#" class="list-group-item ">Cras justo odio</a>
+                                                            <a href="#" class="list-group-item ">Est iure</a>
+                                                            <a href="#" class="list-group-item ">Praesentium</a>
+                                                            <a href="#" class="list-group-item ">Laboriosam</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- Left links -->
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link " href="#">
+                                            Brand
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="Privacy-Policy.html">Privacy Policy</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="Refund-Policy.html">Refund Policy</a>
+                                            </li>
+                                            <li><a class="dropdown-item"
+                                                    href="shipping-cancellation-return-dispute-resolution-policy.html">Shipping
+                                                    policy</a></li>
+                                            <li><a class="dropdown-item" href="terms-of-use-policy.html">Terms of use
+                                                    policy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="blog.html">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="Contact-us-page.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+    <!-- ================ header section End ===================== -->
+    <!-- ================= min-hed section start ===============  -->
+    <div class="min-hed">
+        <div class="container">
+            <div class="head-section">
+                <div class=" col-md-3  col-sm-0 "></div>
+                <div class="col-md-6 col-sm-6">
+                    <form action="" method="post" class="inputcontainer">
+                        <input type="text" placeholder="Search for product">
+                        <button type="submit"><!--<i class="fas fa-search"></i> --><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class=" login-section">
+                        <a href="#">
+                            <p class="login-btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</p>
+                        </a>
+                        <!-- Modal -->
+                        <div class="modal fade " id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdrop"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="text-end"> <button type="button" class="btn-close "
+                                            data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                    <div class="modal-header">
+                                        <div>
+                                            <h4 class="modal-title  text-center col-md-12" id="staticBackdropLabel">
+                                                Login</h4>
+                                            <p>Please login using account details below.</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form method="post">
+                                            <input type="number" placeholder="Contact Number">
+                                            <input type="number" placeholder="OTP">
+                                            <p class="resend-p ">Didn’t Receive? <span> Resend </span></p>
+                                            <div class="col-12 d-flex justify-content-center">
+                                                <input type="submit" class=" submit-profile" value="Verify">
+                                            </div>
+                                        </form>
+                                        <p class="text-center">Don’t have an account? Create account</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="shoping-cart"><a href="cart-page.html"><i class="bi bi-cart2"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================= min-hed section End ===============  -->
+    <div class="my-order-section">
+        <div class="container">
+            <div class="row">
+    <div class="col-lg-8 com-md-9 col-sm-12">
+        <div class="my-order-body">
+            <div class="my-order-head">
+                <h1>My Order</h1>
+            </div>
+            <div class="my-order-contain">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3    m-0 p-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="my-order-img-box">
+                            <a href="productsviewdetailes.html"> <img src="asstes/img/order-logo/package.png"
+                                    alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9  ">
+                        <div class="my-order-list">
+                            <a href="productsviewdetailes.html">
+                                <h5>7 April 2023, 05:06:00 PM</h5>
+                            </a>
+                            <div>MuscleBlaze Test Pro & Ashwagandha 60 Tab Combo <span class="fw-semibold "> +3 more </span></div>
+                            <p class="fw-semibold">&#8377 4000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="my-order-contain">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3    m-0 p-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="my-order-img-box-green">
+                            <a href="productsviewdetailes.html"> <img src="asstes/img/order-logo/package 1.png"
+                                    alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9  ">
+                        <div class="my-order-list">
+                            <a href="productsviewdetailes.html">
+                                <h5>7 April 2023, 05:06:00 PM</h5>
+                            </a>
+                            <div>MuscleBlaze Test Pro & Ashwagandha 60 Tab Combo <span class="fw-semibold "> +3 more </span></div>
+                            <p class="fw-semibold">&#8377 4000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /2 -->
+            <!-- 3 -->
+            <div class="my-order-contain">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3    m-0 p-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="my-order-img-box-red">
+                            <a href="productsviewdetailes.html"> <img src="asstes/img/order-logo/package 1.png"
+                                    alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9  ">
+                        <div class="my-order-list">
+                            <a href="productsviewdetailes.html">
+                                <h5>7 April 2023, 05:06:00 PM</h5>
+                            </a>
+                            <div>MuscleBlaze Test Pro & Ashwagandha 60 Tab Combo <span class="fw-semibold "> +3 more </span></div>
+                            <p class="fw-semibold">&#8377 4000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /3 -->
+            <!-- 4 -->
+            <div class="my-order-contain">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3    m-0 p-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="my-order-img-box">
+                            <a href="productsviewdetailes.html"> <img src="asstes/img/order-logo/package.png"
+                                    alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9  ">
+                        <div class="my-order-list">
+                            <a href="productsviewdetailes.html">
+                                <h5>7 April 2023, 05:06:00 PM</h5>
+                            </a>
+                            <div>MuscleBlaze Test Pro & Ashwagandha 60 Tab Combo <span class="fw-semibold "> +3 more </span></div>
+                            <p class="fw-semibold">&#8377 4000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /4 -->
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-left-body ">
+                    <div class="footer-icon-box">
+                        <img src="asstes/img/logo/Vector.png" alt=""><span>GymCart</span>
+                    </div>
+                    <p class="gym-icon-size">2023 <i class="far fa-copyright"></i> GymCart <br>
+                        All Right Reserved</p>
+                    <div class="icon-footer-box">
+                        <div>
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <ul class="list-group footer-list">
+                        <li class="list-group-item"><a href="#" class="active">Category</a></li>
+                        <li class="list-group-item"><a href="#" class="">Sports Nutrition</a></li>
+                        <li class="list-group-item"><a href="#" class="">Vitamins & Supplements</a></li>
+                        <li class="list-group-item"><a href="#" class="">Fitness</a></li>
+                        <li class="list-group-item"><a href="#" class="">Health Food & Drinks</a></li>
+
+                        <!-- <li class="list-group-item"><a href="#" class="">Careers</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <ul class="list-group footer-list">
+                        <li class="list-group-item"><a href="#" class="active">Company</a></li>
+                        <li class="list-group-item"><a href="Contact-us-page.html" class="">Contact us</a></li>
+                        <li class="list-group-item"><a href="About-us-page.html" class="">About us</a></li>
+                        <!-- <li class="list-group-item"><a href="#"class="">Support</a></li> -->
+                        <!-- <li class="list-group-item"><a href="#" class="">Careers</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <ul class="list-group footer-list ">
+                        <li class="list-group-item"><a href="#" class="active">Quick Link</a></li>
+                        <li class="list-group-item"><a href="terms-of-use-policy.html" class="">Terms of use </a></li>
+                        <li class="list-group-item"><a href="Privacy-Policy.html" class="">Privacy Policy</a></li>
+                        <li class="list-group-item"><a href="Refund-Policy.html" class="">Refund Policy</a></li>
+                        <li class="list-group-item"><a
+                                href="shipping-cancellation-return-dispute-resolution-policy.html" class="">Shipping
+                                policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <div className="scroll-to-top">
+        <span class="btns-top btn-position btn-style"><i class="fas fa-angle-up"></i></span>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+    <!--============ swiper js =============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+    <script src="asstes/js/scroll top.js"></script>
+    <script src="asstes/js/script.js"></script>
+
+</body>
+
+</html>
