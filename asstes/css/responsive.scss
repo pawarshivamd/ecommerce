@@ -1069,6 +1069,14 @@
     }
 }
 @media (max-width:767px) {
+    .User-rating-review-section .rating-from{
+        h5{
+            font-size: 17px !important;
+        }
+    }
+    .my-order-section .my-order-contain .my-order-list{
+        text-align: center;
+    }
     .traking-progress-section {
         display: none;
     }
