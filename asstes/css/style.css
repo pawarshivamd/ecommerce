@@ -1933,6 +1933,9 @@
 .Order-Details-traking-section {
   margin: 50px 0px;
 }
+.Order-Details-traking-section .traking-progress-section-mobile {
+  display: none;
+}
 .Order-Details-traking-section .traking-progress-section {
   /* Progress Tracker v2 */
   position: relative;
@@ -1956,10 +1959,10 @@
   text-align: center;
 }
 .Order-Details-traking-section .traking-progress-section .stepper-item .step-head-name {
-  color: #303733;
+  color: var(--black);
 }
 .Order-Details-traking-section .traking-progress-section .stepper-item .step-name {
-  color: #667085;
+  color: var(--black);
 }
 .Order-Details-traking-section .traking-progress-section .stepper-item .disactive {
   color: #ACABAB;
@@ -2115,7 +2118,7 @@
   color: rgba(0, 0, 0, 0.59);
 }
 .Order-Details-traking-section .total-box {
-  padding-top: 70px;
+  margin-top: 90px;
 }
 .Order-Details-traking-section .total-box .table thead {
   border-bottom: 1px solid gray;
@@ -2130,7 +2133,7 @@
   background-color: #FFF6EA !important;
 }
 .Order-Details-traking-section .total-box thead .Price-detal {
-  padding-left: 10px;
+  padding: 10px 12px;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.49);
 }
